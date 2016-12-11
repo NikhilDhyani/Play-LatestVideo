@@ -23,7 +23,7 @@ def channel(response):
                       if re.search(r'/user',y) or re.search(r'/channel',y):
                          
                          z=y
-                         print(z)
+                         
                          return z
        if z==1:
           print("Channel/user doesn't exist or check your spelling. Search only for video")
@@ -121,7 +121,7 @@ while(cond):
       response = requests.get("https://www.youtube.com"+k+"/videos")
     
       z=video_info(response)
-      print(z)
+     
       choice = raw_input("want to watch y or n\n>")
       if choice=="y":
          link = "https://www.youtube.com"+z
@@ -155,4 +155,4 @@ while(cond):
       if par=='n':
          cond=False
       i=0
-      p=0
+      p=0          
