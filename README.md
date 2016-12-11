@@ -7,7 +7,7 @@ Play latest video uploaded by the channel direclty in vlc using command line
 #Usage
 Simpy run the packages  
 Example:  
-![](https://github.com/NikhilDhyani/Play-LatestVideo/blob/master/Images/Screenshot%20from%202016-12-10%2012-49-56.png)
+![](https://github.com/NikhilDhyani/Play-LatestVideo/blob/master/Images/Screenshot%20from%202016-12-11%2014-28-14.png) 
 
 ![](https://github.com/NikhilDhyani/Play-LatestVideo/blob/master/Images/Screenshot%20from%202016-12-10%2012-50-21.png)
 
