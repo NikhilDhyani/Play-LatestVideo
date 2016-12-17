@@ -21,5 +21,7 @@ Example:
      2. If that's not working for you follow this link:  
         https://addons.videolan.org/content/show.php/+Youtube+playlist?content=149909  
       
-    If you have a low speed internet connection play it on youtube because in vlc by default it plays the best quality available.
+    If you have a low speed internet connection play it on youtube because in vlc by default it plays the best quality available.  
     
+# Disclaimer  
+Downloading copyrighted material may be illegal in your country. So,use it at your own risk.
