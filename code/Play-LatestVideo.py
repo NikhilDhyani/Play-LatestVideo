@@ -131,7 +131,17 @@ while(cond):
             myprocess = subprocess.call(['vlc','-vvv',link])
          else:
             webbrowser.open(link)   
-         
+      download = raw_input("want to download audio(a), video(v),else -1")
+      if download!=-1:
+         if download=='v':
+            commands = ['youtube-dl', '--no-playlist',link]
+            command = ' '.join(commands)
+            os.system(command)
+         else:
+            commands = ['youtube-dl', '--extract-audio',link]
+            command = ' '.join(commands)
+            os.system(command)
+   
       par = raw_input("want to continue y or n\n>")   
       if par=='n':
          cond=False
@@ -146,11 +156,23 @@ while(cond):
       
       if choice!=-1:
          link = "https://www.youtube.com"+list1[choice]
-         option=raw_input("vlc(v) or youtube(y)\n>")
-         if option=='v':
-            myprocess = subprocess.call(['vlc','-vvv',link])
+         option=raw_input("vlc(v) or youtube(y) else -1\n>")
+      if option!=-1:
+           if option=='v':
+              myprocess = subprocess.call(['vlc','-vvv',link])
+           else:
+              webbrowser.open(link)
+      download = raw_input("want to download audio(a), video(v),else -1")
+      if download!=-1:
+         if download=='v':
+            commands = ['youtube-dl', '--no-playlist',link]
+            command = ' '.join(commands)
+            os.system(command)
          else:
-            webbrowser.open(link)
+            commands = ['youtube-dl', '--extract-audio',link]
+            command = ' '.join(commands)
+            os.system(command)
+   
       par = raw_input("want to continue y or n\n>")   
       if par=='n':
          cond=False
