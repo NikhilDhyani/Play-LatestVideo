@@ -1,9 +1,12 @@
-# Play-LatestVideo
-Play latest video uploaded by the channel direclty in vlc using command line
+# Play-LatestVideo 
+Play latest video uploaded by the channel direclty in vlc using command line.
+### Edit:
+And now you can also download any video or song. Just enter the name of any song or enter the lyrics and select what you want to download audio or audio+video. And enjoy. 
 # Requirement
-1.Python
-2.BeautifulSoup
-3.VLC
+1.Python  
+2.BeautifulSoup  
+3.VLC  
+4.Youtube-dl
 #Usage
 Simpy run the packages  
 Example:  
